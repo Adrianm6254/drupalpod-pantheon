@@ -6,7 +6,7 @@ tasks:
   - name: terminal
     before: |
       .gitpod/env-setup.sh
-      .gitpod/ddev-in-gitpod-setup.sh
+      .gitpod/ddev-in-gitpod.sh
     init: |
       ddev debug download-images
       .gitpod/project-setup.sh
